@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*MISE EN PAGE */
+
+
+/* DIVISION BLEU */
+.div1{
+   display: grid; 
+   grid-template-columns: 1fr 2fr; 
+   grid-auto-rows: minmax(750px, auto);
+   
+}
+
+.div2{
+    background-color: blue;
+}
+
+.div2 a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+.div2 p{
+    margin: 10px;
+    color: #fff;
+}
+
+.icon{
+    display: inline-block;
+}
+/* DIVISION BLANC */
+
+.div3{
+    background-color: white;
+}
+
+#img2{
+    height: 150px;
+    box-shadow: 3px 3px 10px 5px #fff;
+   padding-bottom: 25px;
+   margin: 15px;
+}
+.fa-align-justify{
+font-size: 25px;
+margin-left: 950px;
+margin-top: 25px;
+}
+
+.div5{
+    padding-left: 280px;
+    color: blue;
+}
+
+
+
+
+
+button a {
+      text-decoration: none; 
+}
+
+.port {
+    background-color: blue;
+    border-radius: 80px;
+   font-size: 15px;
+   width: 120px;
+}
+.resr{
+    background-color: white;
+    border-radius: 80px;
+   font-size: 15px; 
+   width: 120px;
+  
+}
+
+/* EXEMPLE */
+/*.div1 * {
+    border: 1px solid red;
+    position: relative;
+  } */ 
